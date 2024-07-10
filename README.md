@@ -142,7 +142,8 @@ In phpMyAdmin, I created a new database named "coffee_shop_products", and then i
 I browsed the contents of the new table.
 
 See the screenshot of the contents of the new table:
-![Task9](https://github.com/DSgbemisola/Database-Design-and-Implementation/assets/116846702/202b0a2d-dc75-4c01-8cae-62eb2adf20d0)
+![Task10](https://github.com/DSgbemisola/Database-Design-and-Implementation/assets/116846702/8a18c214-9c95-4961-9292-53e829fc3fb9)
+
 
 
 
