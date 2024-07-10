@@ -1,5 +1,5 @@
 # Cofee Shop Database-Design-and-Implementation
-This is a project on Database Design and Implementation. In this project I demostrate skills in designing a database using an ERD tool and implement the database schema using PostgreSQL and MySQL.
+This is a project on Database Design and Implementation where I demostrated skills in designing a database for a Cofee Shop using an ERD tool. I implemented the database schema using PostgreSQL and MySQL.
 
 # Project Scenario
 In this project scenario, I have recently been hired as a Data Engineer by a New York-based coffee shop chain looking to expand nationally by opening several franchise locations. They want to streamline operations and revamp their data infrastructure as part of their expansion process.
