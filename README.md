@@ -111,7 +111,7 @@ See the screenshot showing the tree-view pane on the left side of the page:
 
 The external payroll company has requested a list of employees and the locations at which they work. The specifically requested that the list should not include the CEO or CFO who owns the company. In this phase, I created a view in our PostgreSQL database that returns this information and export the results to a CSV file.
 
-1. In our COFFEE database, I created a new view named staff_locations_view using the following SQL:
+1. In our COFFEE database, I created a new view named staff_locations_view using the following SQL statement:
 
  SELECT staff.staff_id,
  staff.first_name,
@@ -134,7 +134,7 @@ A marketing consultant requires access to our product data in their MySQL databa
 
 I Created a materialized view in our PostgreSQL database that returns this information and exported the results to a CSV file. 
 
-1. In our COFFEE database, I created a new materialized view named product_info_m-view using the following SQL:
+1. In our COFFEE database, I created a new materialized view named product_info_m-view using the following SQL statement:
 
    SELECT product.product_name, product.description, product_type.product_category
    FROM product
