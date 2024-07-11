@@ -4,7 +4,7 @@ This is a project on Database Design and Implementation where I demostrated skil
 
 # Project Scenario
 
-In this project scenario, I have recently been hired as a Data Engineer by a New York-based coffee shop chain looking to expand nationally by opening several franchise locations. They want to streamline operations and revamp their data infrastructure as part of their expansion process.
+I have recently been hired as a Data Engineer by a New York-based coffee shop chain looking to expand nationally by opening several franchise locations. They want to streamline operations and revamp their data infrastructure as part of their expansion process.
 
 My job is to design their relational database systems for improved operational efficiencies and make it easier for their executives to make data-driven decisions.
 
