@@ -113,12 +113,12 @@ The external payroll company has requested a list of employees and the locations
 
 1. In our COFFEE database, I created a new view named staff_locations_view using the following SQL statement:
 
- SELECT staff.staff_id,
- staff.first_name,
- staff.last_name,
- staff.location
- FROM staff
- WHERE "position" NOT IN ('CEO', 'CFO');
+       SELECT staff.staff_id,
+       staff.first_name,
+       staff.last_name,
+       staff.location
+       FROM staff
+       WHERE "position" NOT IN ('CEO', 'CFO');
 
 2. Viewed all the rows returned from the view.
 
@@ -136,10 +136,10 @@ I Created a materialized view in our PostgreSQL database that returns this infor
 
 1. In our COFFEE database, I created a new materialized view named product_info_m-view using the following SQL statement:
 
-   SELECT product.product_name, product.description, product_type.product_category
-   FROM product
-   JOIN product_type
-   ON product.product_type_id = product_type.product_type_id;
+        SELECT product.product_name, product.description, product_type.product_category
+        FROM product
+        JOIN product_type
+        ON product.product_type_id = product_type.product_type_id;
 
 2. Refreshed the materialized view with data.
 3. Viewed all the rows returned from the view.
